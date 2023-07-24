@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind & Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind script for custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/b8b66df87d.js" crossorigin="anonymous"></script>
+    <title>Tea House - Best Cold Tea In Town</title>
+  </head>
+  <body class="font-['Manrope']">
+    <!-- banner section -->
+    <header class="md:container md:mx-auto my-16 ">
+      <div class="min-h-screen bg-white">
+        <div class="hero-content flex-col lg:flex-row justify-between items-center">
+          <div class="w-[100%]">
+            <h1 class="text-5xl  md:text-8xl font-extrabold">It's good
+              <br> 
+              tea time at The
+              <br>
+              Tea House</h1>
+            <p class="py-6 text-[#777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+            <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">Explore More</button>
+          </div>
+          <div class="w-[100%]">
+            <img src="images/banner.png" class="w-full" />
+            <div class="-mt-[80px] ml-16 bg-white rounded-lg border w-[65%] md:w-[50%] p-5  drop-shadow-lg flex justify-center gap-2 items-center flex-row-reverse">
+            <div>
+              <h2 class="text-3xl text-[30px]">5.00</h2>
+              <p class="text-[#777]">Trust Pilot Ratings</p>
+            </div>
+            <i class="text-xl text-[#FFC850] fa-sharp fa-solid fa-star"></i>
+          </div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+
+    <main class="md:container md:mx-auto">
+      <!-- Feature Products Section -->
+      <section class="mb-10">
+        <div class="my-5">
+          <h1>Our Featured Products</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+        <div class="flex justify-between items-center gap-6">
+          <!-- Tea 1 -->
+          <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] hover:bg-gradient-to-r hover:from-[#ff000052] hover:to-[#ff883852] card w-[90%] mx-auto md:w-full bg-base-100 shadow-xl cursor-pointer">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[#1C1C1C] font-extrabold">Green Tea</h2>
+              <p class="max-w-[70%] text-[#777]">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- Tea 2 -->
+          <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] hover:bg-gradient-to-r hover:from-[#ff000052] hover:to-[#ff883852] card w-[90%] mx-auto md:w-full bg-base-100 shadow-xl cursor-pointer">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[#1C1C1C] font-extrabold">Green Tea</h2>
+              <p class="max-w-[70%] text-[#777]">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- Tea 3 -->
+          <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] hover:bg-gradient-to-r hover:from-[#ff000052] hover:to-[#ff883852] card w-[90%] mx-auto md:w-full bg-base-100 shadow-xl cursor-pointer">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[#1C1C1C] font-extrabold">Green Tea</h2>
+              <p class="max-w-[70%] text-[#777]">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <!-- Tea 4 -->
+          <div class="bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] hover:bg-gradient-to-r hover:from-[#ff000052] hover:to-[#ff883852] card w-[90%] mx-auto md:w-full bg-base-100 shadow-xl cursor-pointer">
+            <figure class="px-10 pt-10">
+              <img src="images/tea-4.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-[25px] text-[#1C1C1C] font-extrabold">Green Tea</h2>
+              <p class="max-w-[70%] text-[#777]">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
